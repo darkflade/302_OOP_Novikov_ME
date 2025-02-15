@@ -10,10 +10,6 @@ class Vector
 
     public function __construct(float $x,float $y,float $z)
     {
-        //if (!is_numeric($x) || !is_numeric($y) || !is_numeric($z)) {
-        //    throw new InvalidArgumentException("Vector components must be numeric values.");
-        //}
-
         $this->x = $x;
         $this->y = $y;
         $this->z = $z;
