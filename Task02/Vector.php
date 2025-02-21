@@ -2,13 +2,15 @@
 
 declare(strict_types=1);
 
+namespace MyApp\Models;
+
 class Vector
 {
     private float $x;
     private float $y;
     private float $z;
 
-    public function __construct(float $x,float $y,float $z)
+    public function __construct(float $x, float $y, float $z)
     {
         $this->x = $x;
         $this->y = $y;

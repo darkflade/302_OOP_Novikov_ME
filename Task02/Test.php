@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-function runTest(): void 
+function runTest(): void
 {
     // String representation test
     $v1 = new Vector(1, 2, 3);
@@ -10,7 +10,7 @@ function runTest(): void
     echo "Получено: " . $v1 . PHP_EOL;
 
     // Adding test
-    $v2 = new Vector(1, 4, -2);   
+    $v2 = new Vector(1, 4, -2);
     $v3 = $v1->add($v2);
     echo "Ожидается: (2; 6; 1)" . PHP_EOL;
     echo "Получено: " . $v3 . PHP_EOL;
