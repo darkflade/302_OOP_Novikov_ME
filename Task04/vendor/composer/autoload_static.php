@@ -11,14 +11,14 @@ class ComposerStaticInitb7c1f5529da17fe22a16f384b65d9afb
     );
 
     public static $prefixLengthsPsr4 = array (
-        'A' =>
+        'A' => 
         array (
             'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'App\\' =>
+        'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -34,6 +34,7 @@ class ComposerStaticInitb7c1f5529da17fe22a16f384b65d9afb
             $loader->prefixLengthsPsr4 = ComposerStaticInitb7c1f5529da17fe22a16f384b65d9afb::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInitb7c1f5529da17fe22a16f384b65d9afb::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInitb7c1f5529da17fe22a16f384b65d9afb::$classMap;
+
         }, null, ClassLoader::class);
     }
 }
