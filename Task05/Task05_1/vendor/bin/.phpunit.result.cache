@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"App\\Tests\\BooksListTest::testIteratorWithEmptyList":0.002,"App\\Tests\\BooksListTest::testIteratorWithOneBook":0,"App\\Tests\\BooksListTest::testIteratorWithMultipleBooks":0,"App\\Tests\\BooksListTest::testMultipleIterations":0}}
