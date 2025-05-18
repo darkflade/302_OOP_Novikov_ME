@@ -11,7 +11,9 @@ if (file_exists($autoloadPath)) {
 
 function collectMoney(PaymentAdapterInterface $paymentSystem, $amount)
 {
-    if ($paymentSystem->collectMoney($amount)) echo "Платеж {$amount} прошел\n";
+    if ($paymentSystem->collectMoney($amount)) {
+        echo "Платеж {$amount} прошел\n";
+    }
 }
 
 $paypal = new PayPal('customer@aol.com', 'password');
